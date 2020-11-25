@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 - Tag A - Âncora</title>
+</head>
+<body>
+    <h1>Aula 04 - Tag A - Criando links</h1>
+
+   <p>O elemento a do SVG cria um hiperlink para outras páginas da web, arquivos, locais na mesma página, endereços de email ou qualquer outra URL. É muito semelhante ao elemento a do HTML.</p>
+
+   <p>A tag A é um contêiner, o que significa que você pode criar um link em torno do texto (como em HTML), mas também em torno de qualquer elemento.</p>
+
+   <h2>Exemplos de Links com a tag a:</h2>
+   <p>Para que a tag a seja uma âncora, ela deve conter o parâmetro href.</p>
+
+
+   <a href="https://www.youtube.com/watch?v=9ByTCcGSIcw&list=PLx4x_zx8csUiVHRDO_7qhOaeNrrQ5uU8c&index=4">Clique aqui para acessar o vídeo desta aula.</a>
+
+   <p>Link com o parâmetro target que indica onde a página será aberta, se na mesma página ou em uma página em branco.</p>
+
+   <a href="https://www.youtube.com/" target="_blank">Youtube em Nova Janela</a>
+
+   <h2>Outros valores possíveis para o parâmetro target:</h2>
+   <p><strong>_self</strong></p>
+   <p>A imagem SVG atual é substituída pelo conteúdo vinculado no mesmo contexto de navegação da imagem SVG atual.</p>
+   <p>Se omitirmos o target, será adotado valor default _self, abrir na mesma janela.</p>
+
+   <p><strong>_parent</strong></p>
+   <p>O contexto imediato de navegação pai da imagem SVG é substituído pelo conteúdo vinculado, se ele existir e puder ser acessado com segurança a partir deste documento.</p>
+
+   <p><strong>_top</strong></p>
+   <p>O conteúdo da janela ou guia ativa completa é substituído pelo conteúdo vinculado, se ele existir e pode ser acessado com segurança a partir deste documento</p>
+
+   <p><strong>_blank</strong></p>
+   <p>Uma nova janela ou guia sem nome é solicitada para a exibição do conteúdo vinculado, se este documento puder fazê-lo com segurança. Se o agente do usuário não tiver suporte a várias janelas/guias, o resultado será o mesmo que _top.</p>
+
+   <p><strong>XML-Name</strong></p>
+   <p>Especifica o nome do contexto de navegação (guia, quadro inline, objeto, etc.) para exibição do conteúdo vinculado. Se um contexto com esse nome já existir e puder ser acessado com segurança a partir deste documento, ele será reutilizado, substituindo o conteúdo existente. Se não existe, ele é criado (o mesmo que '_blank', exceto que agora tem um nome). O nome deve ser um nome XML válido [XML11], e não deve começar com um sublinhado (caractere U+005F LOW LINE), para atender aos requisitos de um nome de contexto de navegação válido do HTML.</p>
+
+   <h2>Links para outros arquivos HTML</h2>
+    <a href="Aula 03 - h1 a h6 - Títulos e Substítulos.html">Abrir Aula 03</a>
+    <p>Dentro do parâmetro href, somente selecionar o nome do arquivo que quer apontar.</p>
+
+    <a href="#fim" id="topo">Ir para o FIM</a>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <a href="#topo" id="fim">Voltar para o TOPO</a>
+</body>
+</html>
